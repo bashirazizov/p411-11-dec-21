@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; */
+}
+.clock{
+    font-family: "Montserrat",sans-serif;
+    color: white;
+    font-size: 150px;
+    font-weight: bolder;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%;
+}
+.clock .second{
+    opacity: .5;
+}
+.clock .colon.last{
+    opacity: .5;
+}
+.clock .date{
+    font-size:60px
+}
